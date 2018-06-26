@@ -24,6 +24,6 @@ public class Checking extends Account {
     @Override
     public void showInfo() {
         super.showInfo();
-        System.out.println("Account type: Checking");
+        System.out.println("Account type: Checking \nDebit card number: " + debitCardNumber + "\nDebit card PIN: " + debitCardPin);
     }
 }

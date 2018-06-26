@@ -24,6 +24,6 @@ public class Savings extends Account {
     @Override
     public void showInfo() {
         super.showInfo();
-        System.out.println("Account type: Savings");
+        System.out.println("Account type: Savings \nSafety deposit ID: " +safetyDepositBoxID + "\nSafety deposit key: " + safetyDepositBoxKey);
     }
 }

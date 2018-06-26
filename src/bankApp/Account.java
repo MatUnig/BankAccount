@@ -29,12 +29,6 @@ public abstract class Account implements IRate {
         showBalance();
     }
 
-    public void transfer(String toWhere, double amount) {
-        balance = balance - amount;
-        System.out.println("Transfering " + amount + " to : " + toWhere);
-        showBalance();
-    }
-
     public void showBalance() {
         System.out.println("Your current balance is: " + balance);
     }
@@ -57,7 +51,7 @@ public abstract class Account implements IRate {
 
     public void showInfo() {
         System.out.println(
-                "Name: " + name + "\nAccount Number: " + accountNumber + "\nBalance: " + balance
+                "Name: " + name + "\nAccount Number: " + accountNumber + "\nBalance: " + balance + "\nRate: " + rate + "%"
         );
     }
 }
