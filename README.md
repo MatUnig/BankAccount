@@ -1,6 +1,6 @@
 # BankAccount
 
-Application using Java (Extended classes) and reading from CVS file.
+Application using Java (Extended, Abstract classes) and reading from CSV file.
 
 ## Meta
 
